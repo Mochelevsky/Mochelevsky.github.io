@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+	background-color: white;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+a:hover, a:focus {
+	color: #b7b7b7;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 200;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #87BB8A;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FAD104;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+
+#headerwrap {
+	background: url(../img/header-bg.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#mochelevsky:hover {
+	color: #DDE975;
+	text-shadow: 2px 3px 2px #555;
+}
+
+#mochelevsky:focus {
+	color: #DDE975;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 32px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4 {
+	font-size: 25px;
+}
+
+.w i {
+	color: #2d2d2d;
+	font-size: 22px;
+}
+
+.w i:hover {
+	color: #87C967;
+}
+
+
+#dg {
+	background: #9EDCA2;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-size: 40px;
+}
+
+#bg {
+	background: #4C4FB5;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#bg h4 {
+	font-size: 45px;
+	color: #FAD104;
+}
+
+#bg p {
+	font-size: 18px;
+	font-weight: 200;
+	color: white;
+	margin: 25px;
+}
+
+.tilt {
+ -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	  -o-transition: all 0.3s ease-in-out;
+	 -ms-transition: all 0.3s ease-in-out;
+	     transition: all 0.3s ease-in-out;
+}
+
+.tilt:hover {
+ -webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	  -o-transform: rotate(-10deg);
+	 -ms-transform: rotate(-10deg);
+	     transform: rotate(-10deg);
+}
+
+.wb {
+	background-color: white;
+	padding-top: 35px;
+	margin-bottom: 0;
+}
+
+.wb h4 {
+	font-size: 35px;
+}
+
+#lg {
+	background: #ebebeb;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#lg h4 {
+	font-size: 45px;
+}
+
+#r {
+	background: #87C967;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#r h4 {
+	color: white;
+	font-size: 45px;
+}
+
+#r {
+	color: white;
+}
+
+#f {
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#f i {
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#f i:hover {
+	color: #FAD104;
+}
+
+.modal-title {
+	color: #F2F2F2;
+}
+
+.modal-header {
+	background: #272822;
+	color: white;
+}
+
+.modal-header h4 {
+	font-weight: 700;
+}
+
+.modal-body {
+	background: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 18px;
+	color: #555;
+	border: 0;
+}
+
+.modal-footer {
+	background: #f2f2f2;
+	margin-top: 0px;
+	border: 0;
+}
+
+.carousel {
+	data-pause: hover;
+}
+
+#telephone {
+	padding-left: 100px;
+}
+
+.iphone {
+	color: #8B8B8B;
+}
+
+.mac {
+	color: #8B8B8B;
+}
+
+.pixel {
+	color: #8B8B8B;
+}
